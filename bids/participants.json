@@ -1,0 +1,5 @@
+{
+    "adni_subject_id":  {
+                            "Description":  "Original ADNI subject identifier before BIDS label sanitization."
+                        }
+}

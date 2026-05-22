@@ -1,0 +1,6 @@
+ADNI T1w and resting-state fMRI BIDS conversion
+
+This raw BIDS dataset was converted from ADNI DICOM exports stored in sibling anat/ and func/ folders.
+BIDS subject labels remove underscores from the original ADNI identifiers, and session labels use the scan date as ses-YYYYMMDD.
+The functional scans are ADNI eyes-open resting-state fMRI and are labeled task-rest.
+The file bids/code/adni_id_map.tsv records the original ADNI subject IDs, image IDs, session dates, and DICOM counts used for conversion.

@@ -1,0 +1,93 @@
+{
+    "AcquisitionMatrixPE":  64,
+    "AcquisitionNumber":  1,
+    "BandwidthPerPixelPhaseEncode":  43.403,
+    "BaseResolution":  64,
+    "CoilCombinationMethod":  "Sum of Squares",
+    "ConversionSoftware":  "dcm2niix",
+    "ConversionSoftwareVersion":  "v1.0.20260416",
+    "DerivedVendorReportedEchoSpacing":  0.000719996,
+    "DwellTime":  5E-06,
+    "EchoTime":  0.03,
+    "EffectiveEchoSpacing":  0.000359998,
+    "FlipAngle":  90,
+    "HeudiconvVersion":  "1.4.0",
+    "ImageOrientationPatientDICOM":  [
+                                         1,
+                                         0,
+                                         0,
+                                         0,
+                                         1,
+                                         0
+                                     ],
+    "ImageType":  [
+                      "ORIGINAL",
+                      "PRIMARY",
+                      "M",
+                      "ND",
+                      "MOSAIC",
+                      "MAGNITUDE"
+                  ],
+    "InPlanePhaseEncodingDirectionDICOM":  "COL",
+    "MRAcquisitionType":  "2D",
+    "MagneticFieldStrength":  3,
+    "Manufacturer":  "Siemens",
+    "MatrixCoilMode":  "GRAPPA",
+    "Modality":  "MR",
+    "NonlinearGradientCorrection":  false,
+    "ParallelReductionFactorInPlane":  2,
+    "PartialFourier":  1,
+    "PatientPosition":  "HFS",
+    "PercentPhaseFOV":  100,
+    "PercentSampling":  100,
+    "PhaseEncodingSteps":  63,
+    "PhaseResolution":  1,
+    "ProtocolName":  "Axial rsfMRI (EYES OPEN)",
+    "PulseSequenceDetails":  "%SiemensSeq%\\ep2d_bold",
+    "ReconMatrixPE":  64,
+    "RefLinesPE":  24,
+    "RepetitionTime":  3,
+    "ScanOptions":  "FS",
+    "ScanningSequence":  "EP",
+    "SequenceName":  "*epfid2d1_64",
+    "SequenceVariant":  "SK",
+    "SeriesDescription":  "Axial rsfMRI (EYES OPEN)",
+    "SliceThickness":  3.4,
+    "SpacingBetweenSlices":  3.4,
+    "TaskName":  "rest",
+    "TotalReadoutTime":  0.0226799,
+    "dcmmeta_reorient_transform":  [
+                                       [
+                                           0.0,
+                                           -1.0,
+                                           0.0,
+                                           447.0
+                                       ],
+                                       [
+                                           1.0,
+                                           0.0,
+                                           0.0,
+                                           0.0
+                                       ],
+                                       [
+                                           0.0,
+                                           0.0,
+                                           -1.0,
+                                           0.0
+                                       ],
+                                       [
+                                           0.0,
+                                           0.0,
+                                           0.0,
+                                           1.0
+                                       ]
+                                   ],
+    "dcmmeta_shape":  [
+                          448,
+                          448,
+                          1,
+                          197
+                      ],
+    "dcmmeta_slice_dim":  2,
+    "dcmmeta_version":  0.6
+}

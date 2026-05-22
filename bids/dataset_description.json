@@ -1,0 +1,10 @@
+{
+    "Name":  "ADNI T1w and resting-state fMRI BIDS conversion",
+    "BIDSVersion":  "1.9.0",
+    "DatasetType":  "raw",
+    "Authors":  [
+                    "ADNI",
+                    "Local conversion with HeuDiConv"
+                ],
+    "HowToAcknowledge":  "Original DICOM data were downloaded from the ADNI database."
+}
