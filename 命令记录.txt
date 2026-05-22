@@ -1,0 +1,15 @@
+请参考这个仓库里的 ADNI DICOM to BIDS 工作流：
+https://github.com/Michaelfzy/fmri_test
+
+我的新数据目录仍然包含 anat/ 和 func/ 两个文件夹，结构类似 ADNI：
+anat/<ADNI_ID>/<T1序列>/<日期>/<ImageID>/*.dcm
+func/<ADNI_ID>/<rsfMRI序列>/<日期>/<ImageID>/*.dcm
+
+请根据仓库中的 code/heuristic_adni.py 和 code/run_heudiconv_adni.ps1，帮我适配并转换这批新数据为 BIDS。
+要求：
+- subject label 去掉下划线
+- session 用扫描日期 ses-YYYYMMDD
+- T1 -> T1w
+- rs-fMRI eyes-open -> task-rest_bold
+- 原始 DICOM 不移动不改名
+- 先 dry-run 检查，再运行转换和 BIDS validator
